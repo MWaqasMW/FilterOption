@@ -7,24 +7,24 @@
 
 
 
-.containor{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 50%;
-    margin: 4% auto;
-}
+
 
 .card-body{
     text-align: center !important;
     font-size: 100%;
+   
+   
 }
 .my-Card{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
-    width: 20%;
+    width: 250px;
     height: 60vh;
-    object-fit: contain;
+    
+ 
 }
+   .car-img{
+    width: 250px;
+    height: 200px;
+   }

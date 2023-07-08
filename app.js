@@ -319,7 +319,7 @@ function allCars() {
                 showCards.innerHTML += ` 
 <div class="card-body  my-Card">
 <div>
-<img src="${show.img}" class="card-img-top" >
+<img src="${show.img}" class="card-img-top car-img" >
   <h1 class="card-title">${show.name}</h1>
   <h4 class="card-text">${show.price}</h4>
   <p class="card-text"><h5 class="text-body-secondary">${show.location}</h5></p>
@@ -348,8 +348,8 @@ function brands(option){
             for (key1 in cars[key].honda){
                var show= cars[key].honda[key1]
                showCards.innerHTML  += `
-               <div class="card style="width: 18rem;">
-               <img src="${show.img}" class="card-img-top" >
+               <div class="card style="width: 12rem;">
+               <img src="${show.img}" class="card-img-top car-img" >
                <div class="card-body">
                  <h2 class="card-title">${show.name}</h2>
                  <p class="card-text">${show.price}</p>
@@ -366,7 +366,7 @@ function brands(option){
                     for (key1 in cars[key].toyota){
                        var show= cars[key].toyota[key1]
                        showCards.innerHTML  += `  <div class="card style="width: 18rem;">
-                       <img src="${show.img}" class="card-img-top" alt="...>
+                       <img src="${show.img}" class="card-img-top car-img" alt="...>
                        <div class="card-body">
                          <h1 class="card-title">${show.name}</h1>
                          <p class="card-text">${show.price}</p>
@@ -385,7 +385,7 @@ function brands(option){
                        var show= cars[key].hyundai[key1]
                        showCards.innerHTML  += `
                        <div class="card style="width: 18rem;">
-                       <img src="${show.img}" class="card-img-top" alt="...>
+                       <img src="${show.img}" class="card-img-top  car-img" alt="...>
                        <div class="card-body">
                          <h1 class="card-title">${show.name}</h1>
                          <p class="card-text">${show.price}</p>
@@ -403,7 +403,7 @@ function brands(option){
                    var show= cars[key].Nissan[key1]
                    showCards.innerHTML  += `
                    <div class="card style="width: 18rem;">
-                   <img src="${show.img}" class="card-img-top" alt="...>
+                   <img src="${show.img}" class="card-img-top  car-img" alt="...>
                    <div class="card-body">
                      <h1 class="card-title">${show.name}</h1>
                      <p class="card-text">${show.price}</p>
@@ -422,7 +422,7 @@ function brands(option){
                var show= cars[key].audi[key1]
                showCards.innerHTML  += `
                <div class="card style="width: 18rem;">
-               <img src="${show.img}" class="card-img-top" alt="...>
+               <img src="${show.img}" class="card-img-top car-img" alt="...>
                <div class="card-body">
                  <h1 class="card-title">${show.name}</h1>
                  <p class="card-text">${show.price}</p>
@@ -441,7 +441,7 @@ case "kia":
            var show= cars[key].kia[key1]
            showCards.innerHTML  += `
            <div class="card">
-           <img src="${show.img}"car-images class="card-img-top" alt="...>
+           <img src="${show.img}"car-images class="card-img-top  car-img" alt="...>
            <div class="card-body">
              <h1 class="card-title">${show.name}</h1>
              <p class="card-text">${show.price}</p>
